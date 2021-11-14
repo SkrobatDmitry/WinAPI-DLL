@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLL", "DLL\DLL.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InjectedDLL", "InjectedDLL\InjectedDLL.vcxproj", "{6429D472-9C58-4988-9C6D-5E5F735AA951}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Application", "Application\Application.vcxproj", "{FE8F3D0D-EFA4-48B2-AFE1-1B06B99AB5C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{6429D472-9C58-4988-9C6D-5E5F735AA951}.Release|x64.Build.0 = Release|x64
 		{6429D472-9C58-4988-9C6D-5E5F735AA951}.Release|x86.ActiveCfg = Release|Win32
 		{6429D472-9C58-4988-9C6D-5E5F735AA951}.Release|x86.Build.0 = Release|Win32
+		{FE8F3D0D-EFA4-48B2-AFE1-1B06B99AB5C2}.Debug|x64.ActiveCfg = Debug|x64
+		{FE8F3D0D-EFA4-48B2-AFE1-1B06B99AB5C2}.Debug|x64.Build.0 = Debug|x64
+		{FE8F3D0D-EFA4-48B2-AFE1-1B06B99AB5C2}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE8F3D0D-EFA4-48B2-AFE1-1B06B99AB5C2}.Debug|x86.Build.0 = Debug|Win32
+		{FE8F3D0D-EFA4-48B2-AFE1-1B06B99AB5C2}.Release|x64.ActiveCfg = Release|x64
+		{FE8F3D0D-EFA4-48B2-AFE1-1B06B99AB5C2}.Release|x64.Build.0 = Release|x64
+		{FE8F3D0D-EFA4-48B2-AFE1-1B06B99AB5C2}.Release|x86.ActiveCfg = Release|Win32
+		{FE8F3D0D-EFA4-48B2-AFE1-1B06B99AB5C2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

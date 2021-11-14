@@ -1,7 +1,7 @@
 #include "../DLL/lib.h"
 
-#define SEARCH_STR "String"
-#define REPLACEMENT_STR "Replacement string"
+#define SEARCH_STR "THIS SHOUD BE REPLACED"
+#define REPLACEMENT_STR "REPLACED STRING"
 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fwdReson, LPVOID lpReserved)
 {
@@ -10,12 +10,9 @@ BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fwdReson, LPVOID lpReserved)
 	switch (fwdReson)
 	{
 	case DLL_PROCESS_ATTACH:
-		break;
 	case DLL_THREAD_ATTACH:
 		ReplaceData(pid, SEARCH_STR, sizeof(SEARCH_STR), REPLACEMENT_STR, sizeof(REPLACEMENT_STR));
-		break;
 	case DLL_THREAD_DETACH:
-		break;
 	case DLL_PROCESS_DETACH:
 		break;
 	}
